@@ -2,14 +2,15 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const dotenv = require('dotenv');
+dotenv.config();
+
 const bodyParser = require('body-parser');
+
 const client = require('twilio')(process.env.TWILLIO_ACCOUNT_ID,process.env.TWILLIO_AUTH_ID);
 const MessagingService = require('twilio').twiml.MessagingResponse;
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended:false}));
-
-dotenv.config();
 
 //https://timberwolf-mastiff-9776.twil.io/demo-reply
 app.get('/',(req,res)=>{
