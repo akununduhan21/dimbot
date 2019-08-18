@@ -26,6 +26,7 @@ const MessagingService = require('twilio').twiml.MessagingResponse;
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended:false}));
+app.use(bodyParser.json());
 
 /**
  * start routing here
@@ -37,6 +38,7 @@ app.get('/',(req,res)=>{
 
 app.post('/webhook',(req,res)=>{
     const data = req.body;
+    console.log(data);
     const twiml = new MessagingService();
     twiml.message('yeay!! this is from hook');
     res.writeHead(200,{'content-type':'text/xml'});
