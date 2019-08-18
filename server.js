@@ -13,3 +13,5 @@ app.post('/webhook',(req,res)=>{
 
     res.json(response);
 });
+
+app.listen(process.env.PORT || 5000);
