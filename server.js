@@ -2,24 +2,35 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const dotenv = require('dotenv');
-const keyPath = process.env.DF_KEY_PATH;
+const bodyParser = require('body-parser');
+const client = require('twilio')(process.env.TWILLIO_ACCOUNT_ID,process.env.TWILLIO_AUTH_ID);
+const MessagingService = require('twilio').twiml.MessagingResponse;
 
+app.use(express.static('public'));
+app.use(bodyParser.urlencoded({extended:false}));
 
 dotenv.config();
 
-if(!keyPath){
-    console.log('You need to specify a path to a service account keypair in environment variable DF_SERVICE_ACCOUNT_PATH. See README.md for details.');
-    process.exit(1);
-}
-
 //https://timberwolf-mastiff-9776.twil.io/demo-reply
 app.get('/',(req,res)=>{
-    //res.send('yeay im here');
-    res.sendFile(path.join(__dirname,'index.html'));
+    res.send('yeay im here');
 });
 
 app.post('/incoming',(req,res)=>{
+  console.log(req.body);
+  const msgContent = req.body.Body;
+  const twiml = new MessagingService();
 
+  if(msgContent === '/itsme'){
+    twiml.message("hi dimas, selamat datang di bot pertama kamu");
+  }else if(msgContent === '/itsdimaswife'){
+    twiml.message("Hai fitri, salam ya dari aku, Bot buatan suamimu, dimas editiya. Semoga sehat selalu,love you so much");
+  }else{
+    twiml.message("percakapan belum ada, kedepannya pasti lebih baik");
+  }
+
+  res.writeHead(200,{'content-type':'text/xml'});
+  res.end(twiml.toString());
 });
 
 app.listen(process.env.PORT,(req,res)=>{
