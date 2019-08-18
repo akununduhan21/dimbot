@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "newagent-yoigap",
+  "private_key_id": "6bb203e441d7cc8649e97e1f0d9eeef6d1ba1e95",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2W4sBaQ5TYKto\nwK31prLQtTSvZS4Jj1ikWKG2gR/NXTm02ZyemaSjpMQNLJQIyRpGkbbcs5hhidwM\n+Re26To7q5QhQsmvTAbHBzfsHc6DhzsnFxIY78aalFw1bjvmsVcIwo+XyLcbNB6l\nNyE/YAckw3Kc6U6r5VK2Uhc/uFPrxeYmby2Oi4YqL1CEPngavRldaWrp5HhximJL\ndiP9jbS7mji6g2jHHGoHkYdlwDgWtrJ/y5pUxZDEz0jr5C6wtuImXwQ5S1MLOpxn\ndQulQtrllW+5hVz1xMQRjDzfq9BwucDGFalTvw55UuKU7w4FKKAqcSKQskdESD/m\nFPqRCCbBAgMBAAECggEATVnhSbTdTcKokqOAZr3SBbOHaIq7j3SNfhDWb4qwCbVs\nn+jahW/YpU1jl8778AoVqi9u6IkJrv4CKEKUq5Kcj+kEyWMCF+hgy5WlQ/OUwLfh\nAIDJvWgfzzv1LPjYUc+Rgna83/5UpSZjhWMwKCi8fvykpihUpZd9kTabA/1VI6Gz\nzBskSr/gRivmZ30KzcpU47LsZFptpRRQzJ2eKAoA5zd5w3xhAqqcov9vMJUMNJuR\ndhiUVoIthTwkBUbUgA/0Y9n3VDsK3uB9g3XGnVWVJfZkxzLtcU6/ca8LTNXborJI\naAWyQUgKSKNfX79zreFf3QMJZeafm6eybeYcScPXDQKBgQDfKOGGkauRxldtXM1m\nsXgvBZYNN5SsqOIwk7QYaPzjzNujLMrLUI2kJskCc6rxdN9S3pXYSIXVw7D058Lc\nlVasXJ1WwZVIHQ5B6GEvn1bLA3NTokqUCu0h38uW4GR8SMMM0inteL+g8SObrJK4\nz0IcOGeWxjjBJ/milWGVkXDPCwKBgQDRMYUjuWYxiX9F+ykuHfm3y3bezbzW4plZ\nuOCtJUPBjTV2gFbWxSQqzX1mavLWGhEAq4Oy3IhVbPobYukCjTs0Tqg0Nhy7HfSL\nKDKSF7GP8CwDAl/AvzCorsTZDYOkoyl2OOnX6lZRhXGNxP/2h7ZfkQWSvofNYqko\nAYa9EJuw4wKBgQDBn7fmSbgieIRc6FtzkeIkcmVaPHJsSPBQk6d8UoOxp4qejvu5\n4r+ywNBBp1iXvf8S6Pv8uBgffHaqV/iz6YNVc9o0byx2cHdxag4BAvCMnwbOdw7c\nWoqbjJEZ7MJjL8LE+gjU+aLTIsbxiI+ZeIL091+x63VM6sFndtM/sfy+NwKBgCCw\nbU6szQRWqRXFbqTvODN5TuT4H1cw56e2lR1ZYmIfb8hJu8gp3EH4BG15ruK4Bgol\nwxmzDnbS5a5b4W9tpF/DHtOx1QGEZ89LA8QCgdOtQyNhPpc/CRqC3O3SB801VehM\ncnYz/zMT+C+gJiNfB6edYNKShWQZ07cVrfljXADjAoGAPhXm1eHXI4GkrMPl6zB3\nMS+J9H17lrnHD3JMNAK9ZKs0mF3KFA3sBDXkvSnymoJMutHvkvpEF7YVtZXI1bU3\nec6i9v5XXOvN9CChyGcZTFjdux5Ftu+RSPHQwcpV9w1s8dTC3r+LNzO38MjSQXzm\nj4D1NMlwvJcoPnatBcnUr24=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-gtusiy@newagent-yoigap.iam.gserviceaccount.com",
+  "client_id": "113975310469064663698",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-gtusiy%40newagent-yoigap.iam.gserviceaccount.com"
+}
