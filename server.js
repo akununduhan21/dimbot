@@ -8,7 +8,7 @@ app.post('/webhook',(req,res)=>{
     const data = req.body;
 
     const response = {
-        fulfillmentText: "your webhook work fine";
+        fulfillmentText: "your webhook work fine"
     }
 
     res.json(response);
