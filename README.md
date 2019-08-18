@@ -1,2 +1,3 @@
-"# dimbot" 
-this is for test on v1.0.0
+<h2>Dimbot</h2>
+<hr/>
+<p>Chat bot for whatsapp</p>
