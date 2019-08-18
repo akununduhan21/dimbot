@@ -1,2 +1,1 @@
-# dimbot
-chat bot for whatsapp
+"# dimbot" 
