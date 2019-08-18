@@ -7,7 +7,7 @@ dotenv.config();
 //https://timberwolf-mastiff-9776.twil.io/demo-reply
 app.get('/',(req,res)=>{
     //res.send('yeay im here');
-    res.sendFile(path.join(__dirname,'index.js'));
+    res.sendFile(path.join(__dirname,'index.html'));
 });
 
 app.listen(process.env.PORT,(req,res)=>{
