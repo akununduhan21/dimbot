@@ -2,7 +2,7 @@
   "name": "dimbot",
   "version": "1.0.0",
   "description": "Chat bot for Whatsapp",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "https://github.com/akununduhan21/dimbot.git",
   "author": "Akun unduhan <akun.unduhan21@gmail.com>",
   "license": "MIT",
